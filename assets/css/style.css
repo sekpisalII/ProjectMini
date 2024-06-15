@@ -1035,6 +1035,22 @@ body.active {
 .details-actions .btn-primary:is(:hover, :focus) {
   background: var(--citrine);
 }
+/* About Us */
+.slide {
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../images/hero-bg.jpg);
+  /* background-size: cover;
+  background-position: center;
+  padding: 10px 8%;
+  position: relative; */
+}
+h1,
+p {
+  color: var(--white);
+  font-family: var(--ff-poppins);
+}
+/* About Us */
 /* * #MEDIA QUERIES */
 @media (min-width: 550px) {
   /**
